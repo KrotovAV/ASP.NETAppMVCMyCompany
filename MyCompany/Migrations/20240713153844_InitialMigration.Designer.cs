@@ -12,7 +12,7 @@ using MyCompany.Domain;
 namespace MyCompany.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240713122452_InitialMigration")]
+    [Migration("20240713153844_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -154,13 +154,13 @@ namespace MyCompany.Migrations
                         {
                             Id = "3b62472e-4f66-49fa-a20f-e7685b9565d8",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9ff3294d-8b54-458a-bff1-7865347b4dd4",
+                            ConcurrencyStamp = "8fccdddc-a411-46fc-941c-f88c4202b97a",
                             Email = "my@email.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "MY@EMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEL5qwOt5T1EufYpzYAo1hqlHOO/sKOpUnXS77Md9R1KSjbszkFjzAd63qXATt8KvPw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENECgp4i+G50m2/CrxMQC1MNByf4l88grY2tvM3Yx5U+wrPSJI327CNp+Covixzyug==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -266,15 +266,12 @@ namespace MyCompany.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("MetaDescription")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MetaKeywords")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MetaTitle")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Subtitle")
@@ -290,7 +287,6 @@ namespace MyCompany.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TitleImagePath")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -312,19 +308,15 @@ namespace MyCompany.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("MetaDescription")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MetaKeywords")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MetaTitle")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Subtitle")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Text")
@@ -336,12 +328,37 @@ namespace MyCompany.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TitleImagePath")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("TextFields");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("63dc8fa6-07ae-4391-8916-e057f71239ce"),
+                            CodeWord = "PageIndex",
+                            DateAdded = new DateTime(2024, 7, 13, 15, 38, 40, 886, DateTimeKind.Utc).AddTicks(6186),
+                            Text = "Содержание заполняется администратором",
+                            Title = "Главная"
+                        },
+                        new
+                        {
+                            Id = new Guid("70bf165a-700a-4156-91c0-e83fce0a277f"),
+                            CodeWord = "PageServices",
+                            DateAdded = new DateTime(2024, 7, 13, 15, 38, 40, 886, DateTimeKind.Utc).AddTicks(6234),
+                            Text = "Содержание заполняется администратором",
+                            Title = "Наши услуги"
+                        },
+                        new
+                        {
+                            Id = new Guid("4aa76a4c-c59d-409a-84c1-06e6487a137a"),
+                            CodeWord = "PageContacts",
+                            DateAdded = new DateTime(2024, 7, 13, 15, 38, 40, 886, DateTimeKind.Utc).AddTicks(6260),
+                            Text = "Содержание заполняется администратором",
+                            Title = "Контакты"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

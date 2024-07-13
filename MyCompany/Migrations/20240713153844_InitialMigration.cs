@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace MyCompany.Migrations
 {
     /// <inheritdoc />
@@ -58,10 +60,10 @@ namespace MyCompany.Migrations
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Subtitle = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Text = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TitleImagePath = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MetaTitle = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MetaDescription = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MetaKeywords = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TitleImagePath = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    MetaTitle = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    MetaDescription = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    MetaKeywords = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DateAdded = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -77,11 +79,11 @@ namespace MyCompany.Migrations
                     CodeWord = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Text = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Subtitle = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TitleImagePath = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MetaTitle = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MetaDescription = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MetaKeywords = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Subtitle = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    TitleImagePath = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    MetaTitle = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    MetaDescription = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    MetaKeywords = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DateAdded = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -203,7 +205,17 @@ namespace MyCompany.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "3b62472e-4f66-49fa-a20f-e7685b9565d8", 0, "9ff3294d-8b54-458a-bff1-7865347b4dd4", "my@email.com", true, false, null, "MY@EMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEL5qwOt5T1EufYpzYAo1hqlHOO/sKOpUnXS77Md9R1KSjbszkFjzAd63qXATt8KvPw==", null, false, "", false, "admin" });
+                values: new object[] { "3b62472e-4f66-49fa-a20f-e7685b9565d8", 0, "8fccdddc-a411-46fc-941c-f88c4202b97a", "my@email.com", true, false, null, "MY@EMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAENECgp4i+G50m2/CrxMQC1MNByf4l88grY2tvM3Yx5U+wrPSJI327CNp+Covixzyug==", null, false, "", false, "admin" });
+
+            migrationBuilder.InsertData(
+                table: "TextFields",
+                columns: new[] { "Id", "CodeWord", "DateAdded", "MetaDescription", "MetaKeywords", "MetaTitle", "Subtitle", "Text", "Title", "TitleImagePath" },
+                values: new object[,]
+                {
+                    { new Guid("4aa76a4c-c59d-409a-84c1-06e6487a137a"), "PageContacts", new DateTime(2024, 7, 13, 15, 38, 40, 886, DateTimeKind.Utc).AddTicks(6260), null, null, null, null, "Содержание заполняется администратором", "Контакты", null },
+                    { new Guid("63dc8fa6-07ae-4391-8916-e057f71239ce"), "PageIndex", new DateTime(2024, 7, 13, 15, 38, 40, 886, DateTimeKind.Utc).AddTicks(6186), null, null, null, null, "Содержание заполняется администратором", "Главная", null },
+                    { new Guid("70bf165a-700a-4156-91c0-e83fce0a277f"), "PageServices", new DateTime(2024, 7, 13, 15, 38, 40, 886, DateTimeKind.Utc).AddTicks(6234), null, null, null, null, "Содержание заполняется администратором", "Наши услуги", null }
+                });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",

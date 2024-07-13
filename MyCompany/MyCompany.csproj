@@ -16,9 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="Areas\Admin\Views\" />
-    <Folder Include="Models\ViewComponents\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\sass\" />
   </ItemGroup>
