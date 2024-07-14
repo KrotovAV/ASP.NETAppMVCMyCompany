@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvcmycompany\\mycompany\\views\\shared\\headerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\shared\\headerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvcmycompany\\mycompany\\views\\shared\\footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\shared\\footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvcmycompany\\mycompany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvcmycompany\\mycompany\\wwwroot\\sass\\main.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\wwwroot\\sass\\main.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvcmycompany\\mycompany\\areas\\admin\\controllers\\serviceitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\areas\\admin\\controllers\\serviceitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvcmycompany\\mycompany\\areas\\admin\\controllers\\textfieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\areas\\admin\\controllers\\textfieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvcmycompany\\mycompany\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvcmycompany\\mycompany\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvcmycompany\\mycompany\\service\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\service\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvcmycompany\\mycompany\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB21E368-5E7B-46AB-93F5-12AFA469A018}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -80,106 +60,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceItemsController.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Areas\\Admin\\Controllers\\ServiceItemsController.cs",
-              "RelativeDocumentMoniker": "MyCompany\\Areas\\Admin\\Controllers\\ServiceItemsController.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Areas\\Admin\\Controllers\\ServiceItemsController.cs",
-              "RelativeToolTip": "MyCompany\\Areas\\Admin\\Controllers\\ServiceItemsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T17:15:27.122Z",
+              "DocumentIndex": 1,
+              "Title": "FooterPartial.cshtml",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Views\\Shared\\FooterPartial.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Shared\\FooterPartial.cshtml",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Views\\Shared\\FooterPartial.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Shared\\FooterPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T05:15:51.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HeaderPartial.cshtml",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Views\\Shared\\HeaderPartial.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Shared\\HeaderPartial.cshtml",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Views\\Shared\\HeaderPartial.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Shared\\HeaderPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T05:11:23.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Program.cs",
               "RelativeDocumentMoniker": "MyCompany\\Program.cs",
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Program.cs",
               "RelativeToolTip": "MyCompany\\Program.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEAAAAARAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T06:43:07.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MyCompany\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MyCompany\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T17:15:18.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TextFieldsController.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Areas\\Admin\\Controllers\\TextFieldsController.cs",
-              "RelativeDocumentMoniker": "MyCompany\\Areas\\Admin\\Controllers\\TextFieldsController.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Areas\\Admin\\Controllers\\TextFieldsController.cs",
-              "RelativeToolTip": "MyCompany\\Areas\\Admin\\Controllers\\TextFieldsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T16:59:57.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Service\\Extensions.cs",
-              "RelativeDocumentMoniker": "MyCompany\\Service\\Extensions.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Service\\Extensions.cs",
-              "RelativeToolTip": "MyCompany\\Service\\Extensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T17:13:32.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MyCompany\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MyCompany\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-13T16:53:17.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.scss",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\wwwroot\\sass\\main.scss",
-              "RelativeDocumentMoniker": "MyCompany\\wwwroot\\sass\\main.scss",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\wwwroot\\sass\\main.scss",
-              "RelativeToolTip": "MyCompany\\wwwroot\\sass\\main.scss",
-              "ViewState": "AQIAABgDAAAAAAAAAAAmwC4DAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-07-13T16:36:33.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "MyCompany\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "MyCompany\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-13T16:04:53.617Z",
               "EditorCaption": ""
             }
           ]

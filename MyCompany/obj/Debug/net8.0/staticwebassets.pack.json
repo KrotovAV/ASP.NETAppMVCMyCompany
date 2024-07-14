@@ -33,6 +33,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\wwwroot\\images\\0Снимок.JPG",
+      "PackagePath": "staticwebassets\\images\\0Снимок.JPG"
+    },
+    {
+      "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\wwwroot\\images\\1Снимок.JPG",
+      "PackagePath": "staticwebassets\\images\\1Снимок.JPG"
+    },
+    {
       "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCMyCompany\\MyCompany\\wwwroot\\images\\pic1.jpg",
       "PackagePath": "staticwebassets\\images\\pic1.jpg"
     },
